@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .from('.button', .25, {
             x: -50,
             opacity: 0
-        }, '-=.50')
+        }, '-=.25')
 
     let scene = new ScrollMagic.Scene({
         triggerElement: '.second-section',
